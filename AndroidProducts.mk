@@ -5,25 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_mi8937.mk
+    $(LOCAL_DIR)/aosp_mi8937.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_mi8937-user \
-    lineage_mi8937-userdebug \
-    lineage_mi8937-eng
-
-PRODUCT_MAKEFILES += \
-    $(LOCAL_DIR)/cherish_mi8937.mk
-
-COMMON_LUNCH_CHOICES += \
-    cherish_mi8937-user \
-    cherish_mi8937-userdebug \
-    cherish_mi8937-eng
-
-PRODUCT_MAKEFILES += \
-    $(LOCAL_DIR)/palladium_mi8937.mk
-
-COMMON_LUNCH_CHOICES += \
-    palladium_mi8937-user \
-    palladium_mi8937-userdebug \
-    palladium_mi8937-eng
+    aosp_mi8937-user \
+    aosp_mi8937-userdebug \
+    aosp_mi8937-eng
